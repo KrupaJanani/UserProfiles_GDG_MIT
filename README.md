@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # UserProfiles_GDG_MIT
 A simple ReactJS Application for fetching user profiles from an API using modern FetchAPI.
-=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,4 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> c3533bd (Initialize project using Create React App)
