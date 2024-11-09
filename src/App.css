@@ -1,0 +1,65 @@
+/* Background Image */
+body {
+  background-image: url('https://i.pinimg.com/564x/34/1d/2f/341d2f2f0369fe76024c8c4654e0d9c9.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional, if you want to style the container */
+.container {
+  background-color: rgba(35, 12, 12, 0.718); /* Semi-transparent black background for the container */
+  color: white; /* Text color for readability */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.gradient-card {
+  background: linear-gradient(to right, #d5d8a0, #9f795c); /* Example gradient from pink to orange */
+  color: white;
+}
+/* Fade-in animation for card */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover zoom effect for profile image */
+.img-hover-zoom:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Hover lift effect for card */
+.card-lift:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Hover lift effect for card */
+.card-lift:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Slide-in animation for table */
+@keyframes slideIn {
+  from {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+.slide-in {
+  animation: slideIn 0.8s ease-out;
+}
